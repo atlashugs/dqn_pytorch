@@ -52,7 +52,6 @@ def main(argv):
 
 	# Initialise agent and environment
 	env = LunarLander()
-	# env = Gridworld()
 	num_actions = env.num_actions()
 	agent = Agent(body_type='ff', 
 				  obs_num_features_or_obs_in_channels=FLAGS.observation_dimensions, 
